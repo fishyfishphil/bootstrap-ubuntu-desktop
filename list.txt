@@ -1,0 +1,9 @@
+blueman
+docker
+gnome-tweaks
+jq
+solaar
+wine
+zsh
+
+openfortivpn
