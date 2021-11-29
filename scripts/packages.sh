@@ -20,3 +20,6 @@ apt install jq -y
 
 # gnome-tweaks
 apt install gnome-tweaks
+
+# xclip
+apt install xclip
