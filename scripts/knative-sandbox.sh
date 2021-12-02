@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set repo, file and executable names
-REPO="knative/client"
-FILE="kn-linux-amd64"
-BIN="kn"
+REPO="knative-sandbox/kn-plugin-quickstart"
+FILE="kn-quickstart-linux-amd64"
+BIN="kn-quickstart"
 
 # Get latest version
 VERSION=$(curl --silent "https://api.github.com/repos/$REPO/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
